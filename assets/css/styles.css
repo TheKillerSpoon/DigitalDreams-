@@ -4,15 +4,21 @@
     box-sizing: border-box;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: "Poppins", sans-serif;
 }
 
 nav {
-    position: absolute;
     display: flex;
     width: 100%;
     background-color: #003569;
+    box-shadow: 1px 6px 14px -5px rgba(0, 0, 0, 0.68);
+    -webkit-box-shadow: 1px 6px 14px -5px rgba(0, 0, 0, 0.68);
+    -moz-box-shadow: 1px 6px 14px -5px rgba(0, 0, 0, 0.68);
 }
 
 nav ul {
@@ -25,6 +31,7 @@ nav ul li a {
     text-decoration: none;
     color: #fff;
     font-size: 18px;
+    cursor: pointer;
 }
 
 .nav-logo {
@@ -35,6 +42,26 @@ nav ul li a {
     gap: 50px;
 }
 
+.nav-links li {
+    position: relative;
+}
+
+.nav-links li::after {
+    position: absolute;
+    content: "";
+    height: 0.2rem;
+    width: 0;
+    background-color: #ffffff;
+    display: block;
+    border-radius: 1000px;
+    margin-top: 0.5rem;
+    transition: all 0.2s ease-in-out;
+}
+
+.nav-links li:hover::after {
+    width: 100%;
+}
+
 .nav-contact {
     margin-left: auto;
 }
@@ -43,9 +70,14 @@ nav ul li a {
     padding: 10px 40px;
     background-color: #fff;
     color: #000;
+    transition: all 0.3s ease;
 }
 
-.front-page {
+.nav-contact a:hover {
+    background-color: #c4c4c4;
+}
+
+.front-page article {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -67,6 +99,7 @@ nav ul li a {
 }
 
 .front-page img {
+    top: 0;
     position: absolute;
     z-index: -1;
     width: 100%;
@@ -134,6 +167,7 @@ nav ul li a {
     margin-top: 50px;
     flex-wrap: wrap;
     justify-content: center;
+    margin-bottom: 20px;
 }
 
 #nyheder .nyheder-container article {
