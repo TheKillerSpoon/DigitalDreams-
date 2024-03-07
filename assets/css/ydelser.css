@@ -1,0 +1,91 @@
+@import url("/assets/css/nav.css");
+
+:root {
+    --h-tag-color: #121212;
+    --p-tag-color: #2e2e2e;
+}
+
+.ydelser {
+    display: flex;
+    max-width: 1800px;
+    margin: 0 auto;
+    justify-content: center;
+    padding: 50px 20px;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+
+.ydelser .containers {
+    display: flex;
+    flex-direction: column;
+    max-width: 450px;
+    text-align: center;
+    /*border: 2px solid #000;*/
+    border-radius: 10px;
+    padding: 20px;
+    justify-content: space-between;
+    -webkit-box-shadow: 0px 2px 80px -30px rgba(0, 0, 0, 0.6);
+    -moz-box-shadow: 0px 2px 80px -30px rgba(0, 0, 0, 0.6);
+    box-shadow: 0px 2px 80px -30px rgba(0, 0, 0, 0.6);
+}
+
+.ydelser .containers h2 {
+    font-size: 35px;
+    margin-bottom: 10px;
+    color: var(--h-tag-color);
+}
+
+.ydelser .containers i {
+    font-size: 50px;
+    margin-bottom: 10px;
+    color: var(--h-tag-color);
+}
+
+.ydelser .containers p {
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: var(--p-tag-color);
+}
+
+.ydelser .containers .buy {
+    display: flex;
+    flex-direction: column;
+}
+
+.ydelser .containers .buy h3 {
+    font-size: 30px;
+    color: var(--h-tag-color);
+}
+
+.ydelser .containers .buy p {
+    font-size: 14px;
+    margin-bottom: 10px;
+    color: var(--p-tag-color);
+}
+
+.ydelser .containers .buy li {
+    list-style: none;
+}
+.ydelser .containers .buy a {
+    font-weight: 600;
+    font-size: 30px;
+    text-decoration: none;
+    color: #05b9fa;
+    position: relative;
+}
+
+.ydelser .containers .buy a::after {
+    content: ">";
+    margin-left: 5px;
+    position: absolute;
+    transition: all 0.3s ease;
+    top: 50%;
+    transform: translateY(-50%);
+    right: -20px;
+    opacity: 0;
+}
+
+.ydelser .containers .buy a:hover::after {
+    right: -30px;
+    opacity: 1;
+}

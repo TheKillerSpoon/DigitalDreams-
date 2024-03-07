@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --nav-color: #003569;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Mulish", sans-serif;
+}
+
+nav {
+  width: 100%;
+  background-color: var(--nav-color);
+  box-shadow: 1px 6px 14px -5px rgba(0, 0, 0, 0.68);
+  -webkit-box-shadow: 1px 6px 14px -5px rgba(0, 0, 0, 0.68);
+  -moz-box-shadow: 1px 6px 14px -5px rgba(0, 0, 0, 0.68);
+}
+
+nav ul {
+  margin: 0 auto;
+  max-width: 1800px;
+  display: flex;
+  list-style: none;
+}
+
+nav ul ul {
+  padding: 25px 40px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 18px;
+  cursor: pointer;
+  font-weight: 700;
+}
+
+.nav-logo {
+  margin-right: auto;
+}
+
+.nav-links {
+  gap: 50px;
+}
+
+.nav-links li {
+  position: relative;
+}
+
+.nav-links li::after {
+  position: absolute;
+  content: "";
+  height: 0.2rem;
+  width: 0;
+  background-color: #ffffff;
+  display: block;
+  border-radius: 1000px;
+  margin-top: 0.5rem;
+  transition: all 0.2s ease-in-out;
+}
+
+.nav-links li:hover::after {
+  width: 100%;
+}
+
+.nav-contact {
+  margin-left: auto;
+}
+
+.nav-contact a {
+  padding: 10px 40px;
+  background-color: #fff;
+  color: #000;
+  transition: all 0.3s ease;
+}
+
+.nav-contact a:hover {
+  background-color: #c4c4c4;
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 60px;
+  margin-top: 58px;
+  margin-bottom: 232px;
+}
+
+.navn {
+}
