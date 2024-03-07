@@ -42,16 +42,34 @@
                     </ul>
                 </ul>
             </nav>
-      <h1>Kontakt</h1>
-      <article class="navn">
-        <p>Navn</p>
-      </article>
-      <article class="email">
-        <p>Email</p>
-      </article>
-      <article class="besked">
-        <p>Besked</p>
-      </article>
+            <h1>Kontakt</h1>
+            <section class="form">
+                <form action="send-besked.php" method="post">
+                    <label for="navn">Navn:</label>
+                    <input type="text" id="navn" name="navn" required>
+                    
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                    
+                    <label for="besked">Besked:</label>
+                    
+                    <textarea id="besked" name="besked" rows="5" cols="30" required></textarea>
+                    
+                    <button type="submit">Send besked</button>
+                </form>
+
+                
+            </section>
+            <img src="billede.jpg" alt="Billede">
+            <article class="info">
+        <p class="bold">Navn: John Doe</p>
+        <p>Type: Kunde</p>
+        <p>Email: john@example.com</p>
+        <p>Tlf: 12345678</p>
+            </article>
+            <section>
+
+            </section>
     </section>
   </body>
 </html>
