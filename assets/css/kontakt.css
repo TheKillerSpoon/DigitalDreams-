@@ -1,0 +1,19 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@import url("/assets/css/nav.css") screen;
+
+h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 60px;
+  margin-top: 58px;
+  margin-bottom: 232px;
+}
+
+.navn {
+}
