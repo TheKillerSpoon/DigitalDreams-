@@ -1,0 +1,58 @@
+@import url("/assets/css/nav.css");
+
+.om-os {
+  justify-content: center;
+  display: block;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+}
+
+.om-os h1 {
+  color: #77d58c;
+  font-size: 50px;
+  margin: 60px 0px;
+  text-align: center;
+  min-width: 200px;
+  justify-content: center;
+}
+.om-os article {
+  justify-content: center;
+  align-items: center;
+}
+
+.om-os p {
+  font-size: 25px;
+  margin: 20px 70px;
+}
+
+.om-os h2 {
+  font-size: 25px;
+  margin-left: 70px;
+}
+
+.om-os h3 {
+  text-align: center;
+  margin: 100px 0px;
+  font-size: 35px;
+}
+
+.vores-mission {
+  color: #fd8551;
+}
+
+.vores-ekspertise {
+  color: #003569;
+}
+
+.historien {
+  color: #05b9fa;
+}
+
+.vores-team {
+  color: #ef185c;
+}
+.kundetilfredshed {
+  color: #77d59c;
+}
