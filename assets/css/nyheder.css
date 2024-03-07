@@ -1,10 +1,68 @@
+@import url("/assets/css/nav.css");
+
+.nyheder-container {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
 .nyheder {
+    margin-top: 20px;
     max-width: 1080px;
-   }
-   
-   .nyheder article {
-       height: 100px;
-       width: 100px;
-       background-color: aqua;
-   }
-   
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 52.5px;
+}
+
+.nyheder article{
+    width: 325px;
+    height: 488px;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.nyheder article:hover{
+    box-shadow: 1px 6px 14px -5px rgba(0, 0, 0, 0.75);   
+    transition: ease-in-out 150ms;
+}
+
+
+
+.nyheder article:nth-child(1){
+    background-image: url("https://picsum.photos/id/0/325/488");
+}
+.nyheder article:nth-child(2){
+    background-image: url("https://picsum.photos/id/1/325/488");
+}
+.nyheder article:nth-child(3){
+    background-image: url("https://picsum.photos/id/2/325/488");
+}
+.nyheder article:nth-child(4){
+    background-image: url("https://picsum.photos/id/3/325/488");
+}
+.nyheder article:nth-child(5){
+    background-image: url("https://picsum.photos/id/4/325/488");  
+}
+.nyheder article:nth-child(6){
+    background-image: url("https://picsum.photos/id/5/325/488");   
+}
+
+h2 {
+    color: white;
+    font-size: 40px;
+    font-weight: 900;
+}
+
+p{
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 20px;
+    margin:0 15px;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
