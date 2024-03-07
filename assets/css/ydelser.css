@@ -1,0 +1,35 @@
+@import url("/assets/css/nav.css");
+
+.ydelser {
+    display: flex;
+    max-width: 1800px;
+    justify-content: center;
+    padding: 20px;
+}
+
+.ydelser article {
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    text-align: center;
+}
+
+.ydelser article h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.ydelser article p {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
+
+.ydelser article li {
+    display: flex;
+    justify-content: center;
+}
+.ydelser article a {
+    font-size: 1.5em;
+    text-decoration: none;
+    color: var(--nav-color);
+}
