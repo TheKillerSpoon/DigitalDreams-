@@ -135,17 +135,21 @@ button[type="submit"]:hover {
 
 img {
   display: flex;
-
-  max-width: 40%;
+  width: 150px;
+  height: 170px;
   margin-right: 10px;
   margin-left: 100px;
+}
+.kontaktinfo {
+  display: flex;
+  align-items: center;
+  padding: 25px;
 }
 
 .info {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  margin-left: 928px;
 }
 
 .bold {
