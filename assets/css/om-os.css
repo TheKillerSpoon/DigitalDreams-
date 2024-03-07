@@ -28,6 +28,7 @@
   padding: 30px 50px;
   margin: 30px 0px;
   border-radius: 20px;
+  display: block;
 }
 
 #starter p {
@@ -55,28 +56,49 @@
   padding: 30px 0px;
   color: white;
   border-radius: 20px;
+  box-shadow: 1px 6px 14px -5px rgba(0, 0, 0, 0.68);
+  -webkit-box-shadow: 1px 6px 14px -5px rgba(0, 0, 0, 0.68);
+  -moz-box-shadow: 1px 6px 14px -5px rgba(0, 0, 0, 0.68);
 }
 
 .vores-mission {
   background-color: #fd8551;
   color: white;
+  box-shadow: 1px 6px 14px -5px rgba(0, 0, 0, 0.68);
+  -webkit-box-shadow: 1px 6px 14px -5px rgba(0, 0, 0, 0.68);
+  -moz-box-shadow: 1px 6px 14px -5px rgba(0, 0, 0, 0.68);
 }
 
 .vores-ekspertise {
   background-color: #003569;
   color: white;
+  box-shadow: 1px 6px 14px -5px rgba(0, 0, 0, 0.68);
+  -webkit-box-shadow: 1px 6px 14px -5px rgba(0, 0, 0, 0.68);
+  -moz-box-shadow: 1px 6px 14px -5px rgba(0, 0, 0, 0.68);
 }
 
 .historien {
   background-color: #05b9fa;
   color: white;
+  box-shadow: 1px 6px 14px -5px rgba(0, 0, 0, 0.68);
+  -webkit-box-shadow: 1px 6px 14px -5px rgba(0, 0, 0, 0.68);
+  -moz-box-shadow: 1px 6px 14px -5px rgba(0, 0, 0, 0.68);
 }
 
 .vores-team {
   background-color: #ef185c;
   color: white;
+  box-shadow: 1px 6px 14px -5px rgba(0, 0, 0, 0.68);
+  -webkit-box-shadow: 1px 6px 14px -5px rgba(0, 0, 0, 0.68);
+  -moz-box-shadow: 1px 6px 14px -5px rgba(0, 0, 0, 0.68);
 }
 .kundetilfredshed {
   background-color: #77d59c;
   color: white;
+  box-shadow: 1px 6px 14px -5px rgba(0, 0, 0, 0.68);
+  -webkit-box-shadow: 1px 6px 14px -5px rgba(0, 0, 0, 0.68);
+  -moz-box-shadow: 1px 6px 14px -5px rgba(0, 0, 0, 0.68);
+}
+
+.fremtiden img {
 }
