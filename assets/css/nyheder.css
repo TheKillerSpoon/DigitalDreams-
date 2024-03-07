@@ -1,5 +1,10 @@
 @import url("/assets/css/nav.css");
 
+#nyheder {
+background-image: url("/assets/img/network_connections_background_with_connecting_lines_and_dots_2704.jpg");
+background-size: contain;
+}
+
 .nyheder-container {
     display: flex;
     justify-content: center;
@@ -19,6 +24,7 @@
     width: 325px;
     height: 488px;
     background-repeat: no-repeat;
+    background-size: contain;
     border-radius: 20px;
     display: flex;
     flex-direction: column;
@@ -33,22 +39,22 @@
 
 
 .nyheder article:nth-child(1){
-    background-image: url("https://picsum.photos/id/0/325/488");
+    background-image: url("https://picsum.photos/id/0/650/976");
 }
 .nyheder article:nth-child(2){
-    background-image: url("https://picsum.photos/id/1/325/488");
+    background-image: url("https://picsum.photos/id/1/650/976");
 }
 .nyheder article:nth-child(3){
-    background-image: url("https://picsum.photos/id/2/325/488");
+    background-image: url("https://picsum.photos/id/2/650/976");
 }
 .nyheder article:nth-child(4){
-    background-image: url("https://picsum.photos/id/3/325/488");
+    background-image: url("https://picsum.photos/id/3/650/976");
 }
 .nyheder article:nth-child(5){
-    background-image: url("https://picsum.photos/id/4/325/488");  
+    background-image: url("https://picsum.photos/id/4/650/976");  
 }
 .nyheder article:nth-child(6){
-    background-image: url("https://picsum.photos/id/5/325/488");   
+    background-image: url("https://picsum.photos/id/5/650/976");   
 }
 
 h2 {
