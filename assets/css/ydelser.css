@@ -5,31 +5,59 @@
     max-width: 1800px;
     justify-content: center;
     padding: 20px;
+    gap: 50px;
 }
 
-.ydelser article {
+.ydelser .containers {
     display: flex;
     flex-direction: column;
     max-width: 600px;
     text-align: center;
+    border: 2px solid #000;
+    border-radius: 10px;
+    padding: 20px;
+    justify-content: space-between;
 }
 
-.ydelser article h2 {
-    font-size: 2.5em;
+.ydelser .containers h2 {
+    font-size: 35px;
     margin-bottom: 20px;
 }
 
-.ydelser article p {
-    font-size: 1.5em;
+.ydelser .containers p {
+    font-size: 20px;
     margin-bottom: 20px;
 }
 
-.ydelser article li {
+.ydelser .containers h3 {
+    font-size: 30px;
+}
+
+.ydelser .containers .buy {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    justify-content: flex-end;
 }
-.ydelser article a {
-    font-size: 1.5em;
+
+.ydelser .containers .buy li {
+    list-style: none;
+}
+.ydelser .containers .buy a {
+    font-weight: 600;
+    font-size: 30px;
     text-decoration: none;
     color: var(--nav-color);
+    position: relative;
+}
+
+.ydelser .containers .buy a::after {
+    content: ">";
+    margin-left: 5px;
+    position: absolute;
+    transition: right 0.3s ease;
+    right: -20px;
+}
+
+.ydelser .containers .buy a:hover::after {
+    right: -30px;
 }
