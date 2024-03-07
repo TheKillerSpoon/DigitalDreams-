@@ -18,7 +18,7 @@
 .ydelser .containers {
     display: flex;
     flex-direction: column;
-    max-width: 450px;
+    width: 450px;
     text-align: center;
     /*border: 2px solid #000;*/
     border-radius: 10px;
