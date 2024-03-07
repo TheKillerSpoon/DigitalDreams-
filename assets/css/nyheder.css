@@ -1,0 +1,10 @@
+.nyheder {
+    max-width: 1080px;
+   }
+   
+   .nyheder article {
+       height: 100px;
+       width: 100px;
+       background-color: aqua;
+   }
+   
