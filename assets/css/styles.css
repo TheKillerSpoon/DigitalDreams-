@@ -1,36 +1,55 @@
 @import url("/assets/css/nav.css");
 
 .front-page article {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    color: #fff;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #fff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .front-page article h1 {
-    font-size: 120px;
-    margin-bottom: 20px;
-    font-weight: 700;
+  font-size: 100px;
+  margin-bottom: 40px;
+  font-weight: 700;
 }
 
 .front-page article p {
-    font-size: 38px;
-    width: 1200px;
-    font-weight: 400;
+  font-size: 38px;
+  width: 1200px;
+  font-weight: 400;
 }
 
 img {
-    position: absolute;
-    top: 0;
-    z-index: -1;
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
-    object-position: top;
+  position: absolute;
+  top: 0;
+  z-index: -1;
+  height: 700px;
+  width: 100%;
+  object-fit: cover;
+  object-position: top;
+  border-radius: 20px;
+}
+
+.mere-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.mere-info i {
+  font-size: 50px;
+  margin-bottom: 10px;
+  background-color: #003569;
+  color: #fff;
+  padding: 25px 20px;
+  border-radius: 1000px;
+  margin-top: 580px;
 }
