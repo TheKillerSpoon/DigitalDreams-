@@ -7,7 +7,6 @@
     text-align: center;
     position: relative;
     color: #fff;
-    overflow-y: hidden;
 }
 
 .front-page h1 {
@@ -75,47 +74,4 @@
 
 #ydelser .ydelser-container article i {
     font-size: 120px;
-}
-
- /* Nyheder */
-
-#nyheder {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-#nyheder h2 {
-    font-weight: 700;
-    margin-top: 50px;
-    font-size: 60px;
-}
-
-#nyheder .nyheder-container {
-    display: flex;
-    gap: 50px;
-    margin-top: 50px;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin-bottom: 20px;
-}
-
-#nyheder .nyheder-container article {
-    width: 400px;
-    height: 450px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 20px;
-    border: 2px solid #000;
-    padding: 20px;
-    border-radius: 15px;
-}
-
-#nyheder .nyheder-container article h3 {
-    font-size: 30px;
-}
-
-#nyheder .nyheder-container article p {
-    font-size: 18px;
 }
